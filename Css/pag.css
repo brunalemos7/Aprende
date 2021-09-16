@@ -1,0 +1,36 @@
+.sobre{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.img-sobre{
+	width: 48%;
+}
+
+.sobre .sobre-texto{
+	width: 48%;
+}
+
+header{
+	width: 100%;
+	height: 600px;
+	background: #1D976C; 
+	background: -webkit-linear-gradient(to right, hsla(142,91%,78%,0.459), hsla(159,68%,35%,0.664)), url(../img/1fre.jpg);
+	background: linear-gradient(to right, hsla(142,91%,78%,0.459), hsla(159,68%,35%,0.664)), url(../img/1fre.jpg);
+
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+header .textos-header{
+	display: flex;
+	height: 480px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	font-family: Bertha Melanie;
+	font-size: 40px;
+}
